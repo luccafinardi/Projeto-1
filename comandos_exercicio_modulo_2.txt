@@ -1,0 +1,17 @@
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# nano calculadora.py
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# ls
+calculadora.py  exercicio_modulo_2.sh  nome.py  python_script.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# chmod +x calculadora.py
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# ls
+calculadora.py  exercicio_modulo_2.sh  nome.py  python_script.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# nano exercicio_modulo_2.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# rm exercicio_modulo_2.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# ls
+calculadora.py  nome.py  python_script.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# nano exercicio_modulo_2.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# chmod +x exercicio_modulo_2.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# chmod 644 exercicio_modulo_2.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# ls
+calculadora.py  exercicio_modulo_2.sh  nome.py  python_script.sh
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python#
+root@DESKTOP-A43G7A9:/home/lucca/modulo1/python# ./exercicio_modulo_2.sh

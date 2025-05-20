@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Solicita o nome do usuário e o exibe
+nome_usuario = input("Por favor, insira seu nome: ")
+print(f"Olá, {nome_usuario}! Bem-vindo a nossa calculadora do exercicio do Modulo 1!.")
+print(f"Vamos fazer assim, se o primeiro numero inserido for maior que o segundo, vamos somar! Caso contrário vamos subtrair!")
+
+# Solicita os dois números de entrada para as operações
+num_1 = int(input("Por favor, insira o primeiro número: "))
+num_2 = int(input("Por favor, insira o segundo número: "))
+
+# Operações de soma e subtração
+if num_1 > num_2:
+    print(f"O número {num_1} é maior que o número {num_2},vamos somar!")
+    soma = num_1 + num_2
+    print(f"O resultado da soma é: {soma}")
+else:
+    print(f"O número {num_1} é menor ou igual ao número {num_2},deseja subtrair!")
+    subtracao = num_1 - num_2
+    print(f"O resultado da subtração é: {subtracao}")
+
+# Operações de multiplicação e divisão
+print(f"Vamos continuar {nome_usuario}, vamos testar agora outras operações matemáticas!")
+
+# Solicita mais dois números de entrada para as operações
+num_3 = float(input("Por favor, insira o primeiro número: "))
+num_4 = float(input("Por favor, insira o segundo número: "))
+
+if num_3 < num_4:
+    print(f"O número {num_3} é menor que o número {num_4},vamos multiplicar!")
+    multipicacao = num_3 * num_4
+    print(f"O resultado da multiplicação é: {multipicacao}")
+else:
+    print(f"O número {num_3} é maior ou igual ao número {num_4},deseja dividir!")
+    divisao = num_3 / num_4
+    print(f"O resultado da subtração é: {divisao}")
+
